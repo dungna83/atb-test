@@ -16,9 +16,14 @@ Simple restful API
 6. PSR-4 Autoloading Standard (Controller)
 
 ## Installations
-- source code & dump database at: https://github.com/dungna83/atb-test
-- dump sql file: atb_test.sql to Database
+- Dump sql file atb_test.sql to your database
 - copy source code to public_html folder OR config local domain point to atb-test folder
+- Change DB config at app/Config/global.php
+    ```php
+    define('DB_HOST', 'localhost');
+	define('DB_NAME', 'atb_test');
+	define('DB_USER', 'root');
+	define('DB_PASS', '123456');
      
 ## API List
 
