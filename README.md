@@ -128,7 +128,7 @@ Request method: **GET**
 
 |Name|Type|Descriptions|
 |:---|:---|:---|
-|token|string| Token string
+|info|string|Logout status
 |http_status|array|HTTP code & message
 
 **Sample data**
@@ -281,13 +281,13 @@ Request method: **PATCH**
 |:---|:---|:---:|:---:|:---|
 |Authorization|token string|✓|✓|Bearer example.token.detail
 |password|string| |✓|123456
-|old_password|string| |✓|123456789
+|new_password|string| |✓|123456789
 
 **Return value**
 
 |Name|Type|Descriptions|
 |:---|:---|:---|
-|info|string| change password success!
+|info|string|change password success!
 |http_status|array|HTTP code & message
 
 **Sample data**
